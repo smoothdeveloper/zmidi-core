@@ -63,7 +63,7 @@ import Data.Char
 import Data.Int
 import Data.Word
 
--- | Status is either OFF of the previous VoiceEvent * Channel.
+-- | Status is either OFF or the previous VoiceEvent * Channel.
 --
 data RS_VoiceEvent = RS_STATUS_OFF
                    | RS_NOTE_OFF    !Word8
